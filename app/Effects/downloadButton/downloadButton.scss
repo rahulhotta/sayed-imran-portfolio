@@ -1,0 +1,59 @@
+.download_button {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000d28;
+    background-color: #000d28;
+    overflow: hidden;
+    border-radius:50px;
+  }
+  
+  .download_button, .download_button__icon, .download_button__text {
+    transition: all 0.3s;
+  }
+  
+  .download_button .download_button__text {
+    transform: translateX(22px);
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .download_button .download_button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: #000d28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .download_button .svg {
+    width: 20px;
+    fill: #fff;
+  }
+  
+  .download_button:hover {
+    background: #000d28;
+  }
+  
+  .download_button:hover .download_button__text {
+    color: transparent;
+  }
+  
+  .download_button:hover .download_button__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .download_button:active .download_button__icon {
+    background-color: #000d28;
+  }
+  
+  .download_button:active {
+    border: 1px solid #000d28;
+  }

@@ -8,8 +8,7 @@ import IconHoverEffect from "../Effects/IconHoverEffect/IconHoverEffect";
 import ActionButton from "../Effects/actionButton/actionButton";
 import DownloadButton from "../Effects/downloadButton/downloadButton";
 import { LinkedinFilled, MediumCircleFilled, GithubFilled } from "@ant-design/icons";
-function Home({scroll}) {
-  console.log("scroll funtion: ",scroll)
+function Home() {
   return (
     <>
     <div className="home_container">
